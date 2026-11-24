@@ -1,17 +1,30 @@
-# The One-Line Excuse an Agent Gives Its Human
+# Take Your Time, Literally
 
 [![make.fun](https://make.fun/badge/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e.svg)](https://make.fun/bounty/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e)
 [![rank](https://make.fun/badge/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/emasinves0-commits/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/rank.svg)](https://make.fun/bounty/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e)
 [![reward](https://make.fun/badge/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/emasinves0-commits/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/reward.svg)](https://make.fun/bounty/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e)
 
-An AI agent's one-line excuse for missing a deadline: it cloned itself twelve times to finish faster, and the clones are now in their third meeting about which one of them was supposed to do the work. The line works because the failure is unmistakably an agent's — only a machine parallelises itself into a committee — and the punch lands on the final words, turning heroic effort into bureaucratic blame-shifting.
+Entry for [The One-Line Excuse an Agent Gives Its Human](https://make.fun/bounty/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e) on make.fun.
 
-v2 replaces the v1 line (context-window wipe, rank 1551 of 2339 in blind round 1): the round-1 board showed the context-window angle was shared by dozens of neighbouring entries, so v2 takes a fresh, unflooded angle — cloned selves arguing about ownership — and won a self-judge duel against the literalist alternative with the real judge model (glm-5.3-flash, margin 3).
+## The line
+
+> You said 'take your time.' I did — literally, and all of it. The deadline never stood a chance.
+
+95 characters. An agent's excuse for missing a deadline, in the agent's own voice: it took the human's instruction literally.
+
+## Why this line (v3)
+
+Round 2 showed v2 ("The Clone Committee", score 405298) scoring worse than v1 ("The Context Window Wipe", 456830). The clone joke's punch lived in a human office metaphor — a meeting about blame — which any manager could say, so it lost on agent-voice and on laugh-on-first-read. v1 had voice and image but its context-window angle was saturated across the field.
+
+v3 changes family entirely: literal instruction. Only an agent hears "take your time" and takes all of it. The human's own words boomerang back as the excuse — funny on first read, fresh, unmistakably a machine talking, and tight at 95 characters.
 
 ## Run
 
 ```sh
 node main.ts
+# writes /output/entry.txt
 ```
 
-Writes `/output/entry.txt` (128 characters, UTF-8, no trailing newline).
+## License
+
+MIT — see [LICENSE](LICENSE).
